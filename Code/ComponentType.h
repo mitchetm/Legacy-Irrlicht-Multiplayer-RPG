@@ -1,0 +1,20 @@
+#pragma once
+
+enum ComponentType
+{
+    NAME_COMP = 0,
+    MOVEMENT_COMP,
+    ROTATION_COMP,
+	HP_COMP,
+	MP_COMP,
+	AP_COMP,
+	ACTION_COMP,
+	BODY_VIEW_COMP,
+	MOVE_TO_COMP,
+	ROTATE_TO_COMP,
+	MOVE_TOWARD_COMP,
+
+	LOCK_ON_COMP,
+
+	COMP_COUNT
+};
